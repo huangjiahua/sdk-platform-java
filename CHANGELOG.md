@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.43.0](https://github.com/googleapis/sdk-platform-java/compare/v2.42.0...v2.43.0) (2024-07-09)
+
+
+### Features
+
+* get released version from versions.txt to render `README.md` ([#3007](https://github.com/googleapis/sdk-platform-java/issues/3007)) ([99bb2b3](https://github.com/googleapis/sdk-platform-java/commit/99bb2b339eadd480dcc1753d4ba3aeda3b5c64de))
+* Introduce java.time to Gax-Java ([#1872](https://github.com/googleapis/sdk-platform-java/issues/1872)) ([308aeaf](https://github.com/googleapis/sdk-platform-java/commit/308aeafc9f04795d2e1df8206c84689b11c4323a))
+* parse `BUILD.bzel` to determine whether a commit that only changed `BUILD.bazel` is a qualified commit ([#2937](https://github.com/googleapis/sdk-platform-java/issues/2937)) ([502f801](https://github.com/googleapis/sdk-platform-java/commit/502f80101dec191befb660a1aba6d0c354758c18))
+
+
+### Bug Fixes
+
+* Fix:  ([d996c2d](https://github.com/googleapis/sdk-platform-java/commit/d996c2dfb4b1cb115e0a2cd117eebd8a4ab41cad))
+* `BaseApiTracer` to noop on attemptFailed via overloaded method call ([#3016](https://github.com/googleapis/sdk-platform-java/issues/3016)) ([2fc938a](https://github.com/googleapis/sdk-platform-java/commit/2fc938a819f4a2da9cfd25d2d306b62f53fa1f91))
+* restore hermetic build image publication ([#2952](https://github.com/googleapis/sdk-platform-java/issues/2952)) ([97a6d67](https://github.com/googleapis/sdk-platform-java/commit/97a6d678569b7d8768ff83fe5370d8966a06ca95))
+
+
+### Dependencies
+
+* update dependency com.fasterxml.jackson:jackson-bom to v2.17.2 ([#3028](https://github.com/googleapis/sdk-platform-java/issues/3028)) ([d16f9d1](https://github.com/googleapis/sdk-platform-java/commit/d16f9d114a75fb8a77dfc39edf6fe2aa2f967704))
+* update dependency com.google.cloud.opentelemetry:detector-resources-support to v0.30.0 ([#2975](https://github.com/googleapis/sdk-platform-java/issues/2975)) ([b3ec93f](https://github.com/googleapis/sdk-platform-java/commit/b3ec93f1925ff5a92b47200a61303e5561dbb1b8))
+* update dependency net.bytebuddy:byte-buddy to v1.14.18 ([#3029](https://github.com/googleapis/sdk-platform-java/issues/3029)) ([8799cf6](https://github.com/googleapis/sdk-platform-java/commit/8799cf602a3204a4adeaf4f48000979e49107959))
+* update google api dependencies ([#2951](https://github.com/googleapis/sdk-platform-java/issues/2951)) ([c16f6c9](https://github.com/googleapis/sdk-platform-java/commit/c16f6c95636b4997861ef3914b06f7819a8bd69a))
+* update googleapis/java-cloud-bom digest to 47c5dbc ([#2974](https://github.com/googleapis/sdk-platform-java/issues/2974)) ([57623f0](https://github.com/googleapis/sdk-platform-java/commit/57623f08441969e0ff0170a72779fb8425ff6592))
+* update junit5 monorepo to v5.10.3 ([#2963](https://github.com/googleapis/sdk-platform-java/issues/2963)) ([bc55fe1](https://github.com/googleapis/sdk-platform-java/commit/bc55fe1fe55876ee3b4843cefb05ee401c323865))
+* Use Gapic-Showcase v0.35.1 ([#3018](https://github.com/googleapis/sdk-platform-java/issues/3018)) ([43773f0](https://github.com/googleapis/sdk-platform-java/commit/43773f0cf2418051b2c0e6245100973b8ce2152e))
+
 ## [2.42.0](https://github.com/googleapis/sdk-platform-java/compare/v2.41.0...v2.42.0) (2024-06-25)
 
 
